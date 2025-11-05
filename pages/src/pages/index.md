@@ -8,4 +8,4 @@ layout: ../layouts/Layout.astro
 
 ### There are the most used snippets from
 
-<a href="https://github.com/artas90/snippets">github.com/artas90/snippets</a>
+<a href="https://github.com/skyfalconua/snippets">github.com/skyfalconua/snippets</a>

@@ -5,9 +5,9 @@ docker login registry.gitlab.com
   Username: oauth2
   Password:
 
-docker build -t registry.gitlab.com/artas90/k8s-portal/APP .
+docker build -t registry.gitlab.com/skyfalconua/k8s-portal/APP .
 
-docker push registry.gitlab.com/artas90/k8s-portal/APP
+docker push registry.gitlab.com/skyfalconua/k8s-portal/APP
 ```
 
 ### helm
@@ -19,17 +19,17 @@ helm uninstall APP && helm install APP .helm
 
 helm registry login -u oauth2 registry.gitlab.com
 
-helm chart save .helm registry.gitlab.com/artas90/k8s-portal/APP:VER
+helm chart save .helm registry.gitlab.com/skyfalconua/k8s-portal/APP:VER
 
-helm chart push registry.gitlab.com/artas90/k8s-portal/APP:VER
+helm chart push registry.gitlab.com/skyfalconua/k8s-portal/APP:VER
 ```
 
 docker 2
 
 ```
-docker build -t registry.gitlab.com/artas90/k8s-portal/app__pyapi .
+docker build -t registry.gitlab.com/skyfalconua/k8s-portal/app__pyapi .
 
-docker push registry.gitlab.com/artas90/k8s-portal/app__pyapi
+docker push registry.gitlab.com/skyfalconua/k8s-portal/app__pyapi
 ```
 
 ### run

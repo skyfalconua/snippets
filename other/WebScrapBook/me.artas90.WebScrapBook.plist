@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
   <key>Label</key>
-  <string>me.artas90.webscrapbook</string>
+  <string>me.skyfalconua.webscrapbook</string>
 
   <key>WorkingDirectory</key>
   <string>/path/to/WebScrapBooks</string>
@@ -27,7 +27,7 @@
   <true/>
 
   <!--
-    launchctl load ~/Library/LaunchAgents/me.artas90.WebScrapBook.plist
+    launchctl load ~/Library/LaunchAgents/me.skyfalconua.WebScrapBook.plist
   -->
 </dict>
 </plist>

@@ -1,5 +1,5 @@
 
-ssh andrey@git.artas90.co.vu
+ssh andrey@git.skyfalconua.co.vu
 
 sudo adduser --home /git git
 
@@ -17,7 +17,7 @@ chmod +x hooks/post-receive
 
 ----
 
-ssh-copy-id -i ~/.ssh/some_key.pub git@@git.artas90.co.vu
+ssh-copy-id -i ~/.ssh/some_key.pub git@@git.skyfalconua.co.vu
 
 OR
 
@@ -30,8 +30,8 @@ remote:  mcedit ~/.ssh/authorized_keys
 
 mcedit ~/.ssh/config
 
-Host git.artas90.co.vu
-    HostName git.artas90.co.vu
+Host git.skyfalconua.co.vu
+    HostName git.skyfalconua.co.vu
     User git
     IdentityFile /home/andrey/.ssh/some_key
 
@@ -39,6 +39,6 @@ cd projects/front
 
 git init
 
-git remote add origin ssh://git.artas90.co.vu/git/front.git
+git remote add origin ssh://git.skyfalconua.co.vu/git/front.git
 
 git push --set-upstream origin master

@@ -1,3 +1,3 @@
 ### Here are the most used snippets
 
-<a href="https://artas90.github.io/snippets/">artas90.github.io/snippets</a>
+<a href="https://skyfalconua.github.io/snippets/">skyfalconua.github.io/snippets</a>
